@@ -12,3 +12,9 @@
                    default_gw : 2.2.2.2
                  - ip         : 4.4.4.4
                    default_gw : 1.1.1.1
+ platform:
+    master_thread_id: 0
+    latency_thread_id: 7
+    dual_if: 
+      - socket: 0
+        threads: [1,2,3,4,5,6]
